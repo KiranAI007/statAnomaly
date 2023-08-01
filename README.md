@@ -19,3 +19,12 @@ Activate
 ```
 mlpro\Scripts\activate
 ```
+
+## Agenda
+
+## 1. setup the github repository
+a. New environment
+b. setup.py
+c. requirements.txt
+
+## 2. Src folder and build the package
