@@ -2,7 +2,7 @@
 built-in sys module, which provides access to various system-specific parameters and functions.
 '''
 import sys
-import logging
+from src.logger import logging
 
 # get the error details 
 def error_message_details(error, error_detail:sys):
@@ -40,5 +40,7 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+
+
 
 
